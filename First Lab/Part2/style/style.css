@@ -1,0 +1,57 @@
+/* #loader {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: loaderRotation 2s linear infinite;
+  background-color: red;
+}
+
+#loader > div {
+  position: absolute;
+  top: calc(-7px);
+  left: calc(-2px);
+  height: 14px;
+  width: 4px;
+  background-color: #000;  
+  border-radius: 3px;
+}
+
+#loader > div:nth-child(1) {
+  transform: rotate(0deg) translateY(-16px);  
+}
+
+#loader > div:nth-child(2) {
+  transform: rotate(45deg) translateY(-16px);
+}
+
+#loader > div:nth-child(3) {
+  transform: rotate(90deg) translateY(-16px);
+}
+
+#loader > div:nth-child(4) {
+  transform: rotate(135deg) translateY(-16px);
+}
+
+#loader > div:nth-child(5) {
+  transform: rotate(180deg) translateY(-16px);
+}
+
+#loader > div:nth-child(6) {
+  transform: rotate(225deg) translateY(-16px);
+}
+
+#loader > div:nth-child(7) {
+  transform: rotate(270deg) translateY(-16px);
+}
+
+#loader > div:nth-child(8) {
+  transform: rotate(315deg) translateY(-16px);
+}
+
+@keyframes loaderRotation {
+  from {transform: rotate(0);}  
+  to {transform: rotate(360deg);}
+} */

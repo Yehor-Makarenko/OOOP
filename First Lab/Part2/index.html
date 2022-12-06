@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <form>
+    <input type="file" accept="text/plain" required>
+    <input type="submit" value="Encode">
+  </form>
+  <a href="#" id="encodedText" download="encoded.txt">Download encoded text</a>  
+  <form>
+    <input type="file" accept="text/plain" required>
+    <input type="submit" value="Decode">
+  </form>  
+  <a href="#" id="decodedText" download="text.txt">Download decoded text</a>  
+  <script src="./script/classes/Queue.js"></script>
+  <script src="./script/classes/PriorityQueue.js"></script>
+  <script src="./script/classes/BinaryTree.js"></script>
+  <script src="./script/Huffman.js"></script>
+  <script src="./script/script.js"></script>
+</body>
+</html>
